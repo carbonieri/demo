@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safety report</title>
+</head>
+<body>
+    <h3>Safety report</h3>
+        <form action="mailto:safety2sky@gmail.com?subject=Report issued today" method="post" enctype="text/plain">
+        <label>Organisation:</label><br>
+        <input type="text" name="Domain" value="Sky Services"><br>
+        <label>Name:</label><br>
+        <input type="text" name="Reporter" value=""><br>
+        <label>Email:</label><br>
+        <input type="email" name="Email" value=""><br>
+        <label>Event:</label><br>
+        <textarea name="Event" id="event" cols="20" rows="10"></textarea><br>
+        <label>Classification:</label><br>
+        <input type="text" name="classification" value="MOR"><br>
+        <label>Is this a confidential report:</label><br>
+        <input type="radio"><br>
+        <label>Damage to the property:</label><br>
+        <input type="text" name="Damage"><br>
+        <label>Injury to the personnel:</label><br>
+        <input type="text" name="Injury"><br>
+        <input type="submit" value="Send">
+        </form>
+        Report code.
+</body>
+</html>
